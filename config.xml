@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="onsen.adder.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" 
 xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>2-adder</name>
+    <name>Charles Calculator</name>
     <description>
         A simple calculator app
     </description>
-    <author email="paulchin20@gmail.com" href="https://androidresearch.net">
-        Android Research
+    <author email="charlescharlesy@gmail.com" href="https://glozzyb-b60d3.web.app/">
+        Portfolio App
     </author>
     <content src="index.html" />
     <access origin="*" />
