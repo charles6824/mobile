@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" href="css/onsenui.css" />
+    <link rel="stylesheet" href="css/onsen-css-components.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Mobile Development - first mobile output with phonegap</title>
+</head>
+
+<body>
+    <ons-page>
+        <ons-toolbar>
+            <div class="container">
+                <div class="left">
+                    <a class="navbar-brand"><span></span> Switch</a>
+                </div>
+            </div>
+        </ons-toolbar>
+            <div class="text-center">
+                <h2 class="head">signup form</h2>
+                            <div>
+                                <ons-input
+                                 id="first" 
+                                 modifier="underbar" 
+                                 placeholder="first number" 
+                                 class="mt-4 mb-2" 
+                                 float
+                                 >
+                                </ons-input>
+                            </div>
+                            <div>
+                                <ons-input
+                                 id="second" 
+                                 modifier="underbar" 
+                                 placeholder="second number" 
+                                 class="mt-4 mb-4" 
+                                 float
+                                 >
+                                </ons-input>
+                            </div>
+                            
+                        <ons-button id="add">Add</ons-button>
+                        <ons-button id="clear">Clear</ons-button>
+            </div>
+    </ons-page>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
